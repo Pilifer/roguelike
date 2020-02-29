@@ -1,41 +1,29 @@
 Python Arcade Library Rogue-Like
 ================================
 
-This is a rogue-like adventure written in Python using the Arcade library.
-It is designed to be a springboard for creating your own rogue-like.
+.. image:: screenshot.png
+    :width: 75%
 
-Keybindings
------------
 
-* Move with the number pad in 8 directions (num lock off)
-* Pick up an item with ``G`` or ``Num 5``
-* Select an item with the numbers ``1`` - ``9``
-* Use the selected item with ``U``
-* Drop the selected item with ``D``
-* Save game with ``S``
-* Load game with ``L``
-* Bring up the character screen with ``C``
+This is a `rogue-like`_ adventure written in the `Python computer language`_
+using the `Arcade Library`_.
 
-    * If you have ability points, click on the + to increase that stat
+.. _rogue-like: https://en.wikipedia.org/wiki/Roguelike
+.. _Python computer language: https://www.python.org/
+.. _Arcade Library: https://arcade.academy
 
-* Cancel the grid selection, character screen, etc. with ``Esc``
+Use this code to hack away at creating your own adventure game!
 
-Other notes
------------
-* Move 'into' a monster to attack it
-* Fireball is an area of effect weapon, and can damage the player.
-* Lightning attacks the closest monster
+.. toctree::
 
-Features
---------
+    install
+    how_to_play
+    features
+    code_docs
 
-* Procedural dungeons
-* Character leveling system
-* Ranged lighting spell
-* Area of effect spell
-* Field of vision
-* Monster table
-* Inventory management system
-* A-star path-finding for monsters
-* Can save/restore dungeon via JSON formatted data
-* Message/event system
+Other links:
+
+* `Source on GitHub <https://github.com/pythonarcade/roguelike>`_
+* `Arcade Library`_
+* `License (MIT) <https://github.com/pythonarcade/roguelike/blob/master/license.rst>`_
+
